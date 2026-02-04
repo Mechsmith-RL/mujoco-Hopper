@@ -14,3 +14,6 @@ python eval.py --env Hopper-v5 --model checkpoints/ppo_hopper_seed0.zip --episod
 
 ### Record Video
 python record_video.py --env Hopper-v5 --model checkpoints/ppo_hopper_seed0.zip --video videos/ppo_seed0/hopper_ppo.mp4 --steps 3000 --seed 0
+
+# mujoco-ppo-sac
+

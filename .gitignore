@@ -1,17 +1,31 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.log
+
+# Virtual env
 .venv/
 venv/
-.idea/
+env/
+ENV/
 
-# Outputs (RL artifacts are huge)
-runs/
-checkpoints/
-videos/
-results/raw/
-results/tmp/
+# IDE
+.idea/
+.vscode/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# RL artifacts (huge)
+runs/
+checkpoints/
+videos/
+
+# results: keep small eval csv, ignore others
+results/*
+!results/eval/
+!results/eval/*.csv
+
+# optional
+.ipynb_checkpoints/
