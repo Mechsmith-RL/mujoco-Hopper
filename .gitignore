@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+
+# Outputs (RL artifacts are huge)
+runs/
+checkpoints/
+videos/
+results/raw/
+results/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
