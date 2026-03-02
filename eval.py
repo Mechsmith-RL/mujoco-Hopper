@@ -38,8 +38,8 @@ def main():
         while True:
             action, _ = model.predict(obs, deterministic=True)
             obs, reward, terminated, truncated, info = env.step(action)
-            ep_len += float(reward)
-            ep_len +=1
+            ep_ret += float(reward)
+            ep_len += 1
             if terminated or truncated:
                 break
 
